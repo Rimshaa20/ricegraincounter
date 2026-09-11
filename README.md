@@ -20,7 +20,7 @@ AI Rice Grain Counter is a fun computer-vision web application that counts the n
 ### The Problem (that doesn't exist)
 Have you ever looked at a plate of rice and thought:
 
-"Exactly how many rice grains are there?" 🍚🤔
+"Exactly how many rice grains are there?" 🍚 🤔
 
 Probably not.
 
