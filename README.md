@@ -2,47 +2,137 @@
 
 
 
-# [Project Name] 🎯
+# AI Rice grain counter 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Bombastic
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: ASLA - UNITY WOMENS COLLEGE MANJERI
+- Member 2: RIMSHA  - UNITY WOMENS COLLEGE MANJERI
+
 
 ### Project Description
-[2-3 lines about what your project does]
+AI Rice Grain Counter is a fun computer-vision web application that counts the number of individual rice grains in an uploaded photograph. The system uses image processing and AI-based object detection to identify and count individual grains and displays the result along with an annotated image.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+Have you ever looked at a plate of rice and thought:
+
+"Exactly how many rice grains are there?" 🍚🤔
+
+Probably not.
+
+But if you ever urgently need to know the exact number of rice grains in a photograph, there was no unnecessarily complicated solution for this completely unnecessary problem.
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+We built AI Rice Grain Counter!
 
+Simply upload a photograph of rice and let our computer vision system do the extremely important job of counting every grain.
+
+The system:
+
+📸 Takes a rice-grain photograph
+↓
+🔍 Detects individual grains
+↓
+🤖 Uses AI/computer vision to identify them
+↓
+🔢 Counts the detected grains
+↓
+✨ Displays the final number and an annotated image
+
+Because apparently, counting rice grains manually wasn't painful enough. 😂
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+Languages:
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+Python
+JavaScript
+HTML
+CSS
+
+Frameworks:
+
+React
+Vite
+FastAPI
+
+Libraries:
+
+OpenCV
+NumPy
+YOLO / YOLO Segmentation
+Python Imaging Library (Pillow)
+Axios / Fetch API
+
+Tools:
+
+Visual Studio Code
+Git
+GitHub
+Web Browser
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+Clone the repository:
+
+git clone https://github.com/Rimshaa20/rice-grain-counter.git
+
+Move into the project directory:
+
+cd rice-grain-counter
+Backend Installation
+
+Go to the backend folder:
+
+cd backend
+
+Create a Python virtual environment:
+
+python -m venv venv
+
+Activate the virtual environment on Windows:
+
+venv\Scripts\activate
+
+Install the required Python packages:
+
+pip install -r requirements.txt
+Frontend Installation
+
+Open another terminal and go to:
+
+cd frontend
+
+Install the required packages:
+
+npm install
 
 # Run
-[commands]
+Start the Backend
+
+From the backend folder:
+
+uvicorn main:app --reload
+
+The backend will run at:
+
+http://127.0.0.1:8000
+Start the Frontend
+
+From the frontend folder:
+
+npm run dev
+
+The website will normally be available at:
+
+http://localhost:5173
+
+Open the address in a web browser.
 
 ### Project Documentation
 For Software:
@@ -58,27 +148,39 @@ For Software:
 *Add caption explaining what this shows*
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+Workflow
+              USER
+                │
+                ▼
+       Upload Rice Image
+                │
+                ▼
+        React Frontend
+                │
+                ▼
+        FastAPI Backend
+                │
+                ▼
+      Image Pre-processing
+                │
+                ▼
+     AI / Computer Vision
+       Grain Detection
+                │
+                ▼
+       Count Individual
+          Rice Grains
+                │
+                ▼
+       Annotated Image
+                │
+                ▼
+       Final Count Result
+                │
+                ▼
+             USER 🍚
 
-For Hardware:
 
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
 # Video
@@ -88,10 +190,6 @@ For Hardware:
 # Additional Demos
 [Add any extra demo materials/links]
 
-## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
