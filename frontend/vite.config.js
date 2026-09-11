@@ -9,7 +9,7 @@ export default defineConfig({
     proxy: {
       // Forward API requests to the FastAPI backend during development
       '/count-rice': {
-        target: 'http://localhost:8000',
+        target: 'https://ricegraincounter.onrender.com',
         changeOrigin: true,
       },
     },
