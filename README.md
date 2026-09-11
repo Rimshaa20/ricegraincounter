@@ -43,7 +43,7 @@ The system:
 ↓
 ✨ Displays the final number and an annotated image
 
-Because apparently, counting rice grains manually wasn't painful enough. 😂
+Because apparently,  counting rice grains manually wasn't painful enough. 😂
 ## Technical Details
 ### Technologies/Components Used
 For Software:
