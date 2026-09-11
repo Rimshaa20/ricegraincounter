@@ -137,15 +137,14 @@ Open the address in a web browser.
 ### Project Documentation
 For Software:
 
-# Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+# Screenshots 
+https://drive.google.com/file/d/157gdhDj0x14vKBT-dVmASfTruTMmOkCg/view?usp=sharing
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+https://drive.google.com/file/d/1AX2zq22MBzIEHiO5Z-SWe6r7JsBN3roO/view?usp=sharing
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+https://drive.google.com/file/d/1V_LH6tppgS6GfCwKAXk1r38vkeYqtZ54/view?usp=sharing
+
+https://drive.google.com/file/d/1ehq-G-zhjelBGG1DkA8w9A2kd0QJpFQu/view?usp=sharing
 
 # Diagrams
 Workflow
@@ -184,11 +183,10 @@ Workflow
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+https://drive.google.com/file/d/1sW-Ssn_SWyh55aV6XCKlu5F65HB4QCKl/view?usp=sharing
 
 # Additional Demos
-[Add any extra demo materials/links]
+https://drive.google.com/file/d/1sW-Ssn_SWyh55aV6XCKlu5F65HB4QCKl/view?usp=sharing
 
 
 ---
