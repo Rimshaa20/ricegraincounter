@@ -86,7 +86,7 @@ function App() {
       const formData = new FormData()
       formData.append('file', file)
 
-      const response = await fetch(IMAGE_URL, {
+      const response = await fetch("https://ricegraincounter.onrender.com/count-rice", {
         method: 'POST',
         body: formData,
       })
